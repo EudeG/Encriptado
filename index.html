@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptado</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+</head> 
+
+<body>    
+    <h2 class="titulo">Encriptando tu mensaje</h2>
+
+    <div class="mensaje">        
+        <h3 class="subtitulos"> Escribe tu mensaje a encriptar o desencriptar:</h3>
+        <input class="contenido" type="texto" id="contenido" placeholder="Escribe aqui tu mensaje a cifrar o descifrar!">
+    </div>
+
+    <div class="div-contenido">
+        <h3 class="subtitulos"> Escoge tu cifrado: </h3>
+         <label class="tipo-cifrado" for="Eleccion">Tipo de cifrado</label>
+             <select id="opciones">
+                <option value="">--Escoge una opción--</option>
+                <option value="cesar">Cesar</option>
+                <option value="cifradoPuro">Cifrado Puro</option>
+                <option value="vigenere">Vigenere</option>
+             </select>
+     </div>    
+
+
+    <div class="div-contenido">    
+        <h3 class="subtitulos"> Clave o desplazamiento: <br> (No aplica para el cifrado Cesar) </h3>    
+        <input class="contenido" type="texto" id="clave" >
+    </div>
+
+    <div class="botones">
+        <button id="botonCifrar">Cifrar</button>
+        <button id="botonDescifrar">Descifrar</button>
+    </div>
+
+    <div class="div-contenido">
+        <h3 class="subtitulos"> Mensaje cifrado/descifrado:</h3>
+        <input class="contenido" type="text" id="contenidoFinal" placeholder="Aquí estará tu mensaje" >
+    </div>
+
+    <p></p>
+    
+    <script src="./assets/encriptados.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #f3f3f3;
+}
+.subtitulos{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3f3f3;
+}
+
+body{
+    background-color: rgb(255, 255, 197);
+
+    background-color: #c4e3d0;
+    background: url(https://img.freepik.com/fotos-premium/matriz-verde-fondo-digital-concepto-codificacion-o-pirateria-concepto-datos-abstracto-representacion-3d_634443-268.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    /*https://i.pinimg.com/550x/91/8d/8f/918d8fb80eebf69c046c84b3b709f22e.jpg*/
+    /*https://addons-media.operacdn.com/media/CACHE/images/themes/95/39995/1.0-rev1/images/4e5e5b9e-64da-41ff-9ae7-1521fe906513/de448535a9a271d3de68ca7809e1f597.jpg*/
+
+}
+
+/*cajas*/
+.contenido{
+    width: 400px;
+}
+
+/*botones*/
+#botonCifrar{
+    background:    #95da8c;
+border-radius: 1000px;
+width:         96px;
+height:        34px;
+color:         #000000;
+display:       inline-block;
+font:          normal bold 15px/34px "Roboto", sans-serif;
+border: none;
+cursor: pointer;
+transition: .2s;
+}
+#botonDescifrar{
+    background:    #95da8c;
+  border-radius: 1000px;
+  width:         120px;
+  height:        34px;
+  color:         #000000;
+  display:       inline-block;
+  font:          normal bold 15px/34px "Roboto", sans-serif;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.botones{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#botonCifrar:hover{
+  transform: scale(1.1);
+}
+
+#botonDescifrar:hover{
+  transform: scale(1.1);
+}
+
+.mensaje{
+    text-align: center;
+}
+
+.div-contenido{
+    text-align: center;
+}
+
+.tipo-cifrado{
+    color: #f3f3f3;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
